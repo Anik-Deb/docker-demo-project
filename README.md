@@ -34,7 +34,7 @@ docker-compose -f docker-compose.prod.yml ps
 
 http://localhost:3000/
 
-# Best Practices to push in dockerhub
+### Best Practices to push in dockerhub
 
 ```bash
 # ensure login successfully
@@ -47,7 +47,7 @@ docker tag nextjs-prisma-mongo-blog-app:latest anikxponent/nextjs-prisma-mongo-b
 docker push anikxponent/nextjs-prisma-mongo-blog-app:latest
 ```
 
-# Sharing with Others
+### Sharing with Others
 
 Others can now use your image by:
 
